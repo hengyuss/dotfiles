@@ -137,6 +137,9 @@ unset key
 PROMPT='%F{green}%n@%m%f:%F{blue}%~%f %# '
 export NVIM_APPNAME=lazyvim
 
+export https_proxy=http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890
+alias dc=cd
 
 ZIM_HOME=~/.zim
 # Install missing modules and update ${ZIM_HOME}/init.zsh if missing or outdated.
