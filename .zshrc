@@ -137,8 +137,8 @@ unset key
 PROMPT='%F{green}%n@%m%f:%F{blue}%~%f %# '
 export NVIM_APPNAME=lazyvim
 
-export https_proxy=http://127.0.0.1:7890
-export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7895
+export http_proxy=http://127.0.0.1:7895
 alias dc=cd
 
 ZIM_HOME=~/.zim
